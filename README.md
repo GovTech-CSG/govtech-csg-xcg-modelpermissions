@@ -1,5 +1,7 @@
 # govtech-csg-xcg-modelpermissions
 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8499/badge)](https://www.bestpractices.dev/projects/8499)
+
 This package belongs to the **eXtended Code Guardrails (XCG)** project, which consists of a series of packages that harden the Django web framework to prevent common web application vulnerabilities.
 
 Specifically, this package provides functionality to enforce permissions checks on users when they attempt to perform actions on a Django `Model` object (e.g. if a request accesses a view that tries to read a set of objects from the database).
